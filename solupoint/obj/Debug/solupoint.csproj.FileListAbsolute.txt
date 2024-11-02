@@ -93,3 +93,11 @@ C:\Users\Saver\source\repos\solupoint\solupoint\obj\Debug\solupoint.csproj.CoreC
 C:\Users\Saver\source\repos\solupoint\solupoint\obj\Debug\solupoint.csproj.Up2Date
 C:\Users\Saver\source\repos\solupoint\solupoint\obj\Debug\solupoint.dll
 C:\Users\Saver\source\repos\solupoint\solupoint\obj\Debug\solupoint.pdb
+C:\Users\Saver\source\repos\solupoint\solupoint\bin\EntityFramework.dll
+C:\Users\Saver\source\repos\solupoint\solupoint\bin\EntityFramework.SqlServer.dll
+C:\Users\Saver\source\repos\solupoint\solupoint\bin\System.Data.SQLite.dll
+C:\Users\Saver\source\repos\solupoint\solupoint\bin\System.Data.SQLite.EF6.dll
+C:\Users\Saver\source\repos\solupoint\solupoint\bin\System.Data.SQLite.Linq.dll
+C:\Users\Saver\source\repos\solupoint\solupoint\bin\EntityFramework.xml
+C:\Users\Saver\source\repos\solupoint\solupoint\bin\EntityFramework.SqlServer.xml
+C:\Users\Saver\source\repos\solupoint\solupoint\bin\System.Data.SQLite.xml

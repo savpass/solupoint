@@ -1,5 +1,6 @@
 ﻿//using Microsoft.Data.Sqlite;
 using System;
+using System.Data.SQLite;
 using System.Web.Mvc;
 
 
@@ -24,45 +25,46 @@ namespace solupoint.Controllers
         [HttpPost]
         public ActionResult Checkout()
         {
-            //string connectionString = System.Configuration.ConfigurationManager
-            //             .ConnectionStrings["SQLiteConnection"].ConnectionString;
+            string connectionString = System.Configuration.ConfigurationManager
+                         .ConnectionStrings["SQLiteConnection"].ConnectionString;
 
-            string connectionString = "Data Source=|DataDirectory|/mydatabase.db";
+            //string connectionString = "Data Source=|DataDirectory|/mydatabase.db";
 
             // Example of interacting with SQLite database
-            /*  using (var connection = new SqliteConnection(connectionString))
-              {
-                  try
-                  {
-                      connection.Open();
+            using (var connection = new SQLiteConnection(connectionString))
+            {
+                try
+                {
+                    connection.Open();
 
-                      // Example SQL to insert or query data
-                      string query = "INSERT INTO Orders (OrderDate, OrderAmount) VALUES (@OrderDate, @OrderAmount);";
+                    // Example SQL to insert or query data
+                    string query = "INSERT INTO Orders (OrderDate, OrderAmount) VALUES (@OrderDate, @OrderAmount);";
 
-                      using (var command = new SqliteCommand(query, connection))
-                      {
-                          // Add parameters to prevent SQL injection
-                          command.Parameters.AddWithValue("@OrderDate", DateTime.Now);
-                          command.Parameters.AddWithValue("@OrderAmount", 100.00); // Example amount
+                    using (var command = new SQLiteCommand(query, connection))
+                    {
+                        // Add parameters to prevent SQL injection
+                        command.Parameters.AddWithValue("@OrderDate", DateTime.Now);
+                        command.Parameters.AddWithValue("@OrderAmount", 100.00); // Example amount
 
-                          command.ExecuteNonQuery(); // Execute the insert
-                      }
+                        command.ExecuteNonQuery(); // Execute the insert
+                    }
 
-                      ViewBag.Message = V; // Set a success message
-                  }
-                  catch (Exception ex)
-                  {
-                      // Log the exception and set an error message
-                      ViewBag.Message = "Error: " + ex.Message;
-                  }
-                  finally
-                  {
-                      connection.Close();
-                  }
-              }*/
+                    ViewBag.Message = V; // Set a success message
+                }
+                catch (Exception ex)
+                {
+                    // Log the exception and set an error message
+                    ViewBag.Message = "Error: " + ex.Message;
+                }
+                finally
+                {
+                    connection.Close();
+                }
+            }
 
             // Return to the Index view
-            ViewBag.Message = V;
+
+
             return View();
         }
     }

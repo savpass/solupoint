@@ -1,9 +1,8 @@
 .vs
-
+.cache
 solupoint/solupoint.csproj.user
-
 .user
-
-.pdb
-
-.dll
+*.pdb
+*.dll
+/solupoint/bin/solupoint.dll
+.csproj

@@ -1,5 +1,0 @@
-CREATE TABLE Orders (
-    Id INTEGER PRIMARY KEY AUTOINCREMENT,
-    OrderDate DATETIME,
-    OrderAmount REAL
-);

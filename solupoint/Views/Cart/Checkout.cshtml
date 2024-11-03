@@ -41,4 +41,12 @@
     {
         <div class="alert alert-info">@ViewBag.Message</div>
     }
+
+
+    <script>
+    var paymentStatus = '@ViewBag.PaymentStatus';
+
+
+    console.log(`Payment failed: ${paymentStatus}`);
+    </script>
 </main>

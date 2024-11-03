@@ -7,8 +7,8 @@ public class PaymentCheck
     public int CustomerId { get; set; }
     public decimal PaymentAmount { get; set; }
     public DateTime PaymentDate { get; set; }
-    public bool IsPaymentValid { get; private set; }
-    public string PaymentStatus { get; private set; }
+    public bool IsPaymentValid { get; set; }
+    public string PaymentStatus { get; set; }
 
     // Constructor
     public PaymentCheck(int customerId, decimal paymentAmount, DateTime paymentDate)

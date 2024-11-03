@@ -2,133 +2,14 @@
   {
     "CustomerId": 123,
     "PaymentAmount": 200.00,
-    "PaymentDate": "2024-11-03T08:39:56.2286223+01:00",
-    "IsPaymentValid": false,
-    "PaymentStatus": "Pending"
+    "PaymentDate": "2024-11-03T22:04:03.6264951+01:00",
+    "IsPaymentValid": true,
+    "PaymentStatus": "Completed"
   },
   {
     "CustomerId": 123,
     "PaymentAmount": 200.00,
-    "PaymentDate": "2024-11-03T08:40:41.452539+01:00",
-    "IsPaymentValid": false,
-    "PaymentStatus": "Pending"
-  },
-  {
-    "CustomerId": 123,
-    "PaymentAmount": 200.00,
-    "PaymentDate": "2024-11-03T08:40:43.2029532+01:00",
-    "IsPaymentValid": false,
-    "PaymentStatus": "Pending"
-  },
-  {
-    "CustomerId": 123,
-    "PaymentAmount": 200.00,
-    "PaymentDate": "2024-11-03T08:40:44.1147008+01:00",
-    "IsPaymentValid": false,
-    "PaymentStatus": "Pending"
-  },
-  {
-    "CustomerId": 123,
-    "PaymentAmount": 200.00,
-    "PaymentDate": "2024-11-03T08:40:44.5491513+01:00",
-    "IsPaymentValid": false,
-    "PaymentStatus": "Pending"
-  },
-  {
-    "CustomerId": 123,
-    "PaymentAmount": 200.00,
-    "PaymentDate": "2024-11-03T08:40:44.8976795+01:00",
-    "IsPaymentValid": false,
-    "PaymentStatus": "Pending"
-  },
-  {
-    "CustomerId": 123,
-    "PaymentAmount": 200.00,
-    "PaymentDate": "2024-11-03T08:40:45.3249425+01:00",
-    "IsPaymentValid": false,
-    "PaymentStatus": "Pending"
-  },
-  {
-    "CustomerId": 123,
-    "PaymentAmount": 200.00,
-    "PaymentDate": "2024-11-03T08:40:45.7134303+01:00",
-    "IsPaymentValid": false,
-    "PaymentStatus": "Pending"
-  },
-  {
-    "CustomerId": 123,
-    "PaymentAmount": 200.00,
-    "PaymentDate": "2024-11-03T08:40:46.1002702+01:00",
-    "IsPaymentValid": false,
-    "PaymentStatus": "Pending"
-  },
-  {
-    "CustomerId": 123,
-    "PaymentAmount": 200.00,
-    "PaymentDate": "2024-11-03T08:40:46.5287453+01:00",
-    "IsPaymentValid": false,
-    "PaymentStatus": "Pending"
-  },
-  {
-    "CustomerId": 123,
-    "PaymentAmount": 200.00,
-    "PaymentDate": "2024-11-03T08:40:47.1921129+01:00",
-    "IsPaymentValid": false,
-    "PaymentStatus": "Pending"
-  },
-  {
-    "CustomerId": 123,
-    "PaymentAmount": 200.00,
-    "PaymentDate": "2024-11-03T08:40:48.00699+01:00",
-    "IsPaymentValid": false,
-    "PaymentStatus": "Pending"
-  },
-  {
-    "CustomerId": 123,
-    "PaymentAmount": 200.00,
-    "PaymentDate": "2024-11-03T08:40:48.6568126+01:00",
-    "IsPaymentValid": false,
-    "PaymentStatus": "Pending"
-  },
-  {
-    "CustomerId": 123,
-    "PaymentAmount": 200.00,
-    "PaymentDate": "2024-11-03T08:40:49.1811461+01:00",
-    "IsPaymentValid": false,
-    "PaymentStatus": "Pending"
-  },
-  {
-    "CustomerId": 123,
-    "PaymentAmount": 200.00,
-    "PaymentDate": "2024-11-03T08:42:43.4552945+01:00",
-    "IsPaymentValid": false,
-    "PaymentStatus": "Pending"
-  },
-  {
-    "CustomerId": 123,
-    "PaymentAmount": 200.00,
-    "PaymentDate": "2024-11-03T08:42:52.1596498+01:00",
-    "IsPaymentValid": false,
-    "PaymentStatus": "Pending"
-  },
-  {
-    "CustomerId": 123,
-    "PaymentAmount": 200.00,
-    "PaymentDate": "2024-11-03T08:43:21.5134435+01:00",
-    "IsPaymentValid": false,
-    "PaymentStatus": "Pending"
-  },
-  {
-    "CustomerId": 123,
-    "PaymentAmount": 200.00,
-    "PaymentDate": "2024-11-03T08:45:01.5720139+01:00",
-    "IsPaymentValid": false,
-    "PaymentStatus": "Pending"
-  },
-  {
-    "CustomerId": 123,
-    "PaymentAmount": 200.00,
-    "PaymentDate": "2024-11-03T08:45:02.905952+01:00",
+    "PaymentDate": "2024-11-03T22:04:11.1420873+01:00",
     "IsPaymentValid": true,
     "PaymentStatus": "Completed"
   }

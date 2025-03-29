@@ -7,7 +7,8 @@ public class RouteConfig
     {
         routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
-        // Default route for all other requests
+        routes.MapMvcAttributeRoutes();
+
         routes.MapRoute(
             name: "Default",
             url: "{controller}/{action}/{id}",

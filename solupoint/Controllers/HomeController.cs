@@ -27,11 +27,11 @@ namespace solupoint.Controllers
             return View();
         }
 
-        [Route("privacy-policy")]
-        public ActionResult PrivacyPolicy()
-        {
-            return View();
-        }
+        //[Route("privacy-policy")]
+        //public ActionResult PrivacyPolicy()
+        //{
+        //    return View();
+        //}
 
 
 

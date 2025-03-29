@@ -1,19 +1,21 @@
 ﻿@{
-    ViewBag.Title = "Contact";
+    ViewBag.Title = "Articoli";
+    ViewBag.Message = "Siamo qui per assisterti!";
 }
-<main aria-labelledby="title">
-    <h2 id="title">@ViewBag.Title.</h2>
-    <h3>@ViewBag.Message</h3>
+<main aria-labelledby="title" style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 2rem;">
+    <h2 id="title" style="font-size: 2rem; color: #2c3e50; margin-bottom: 0.5rem;">@ViewBag.Title</h2>
+    <h3 style="font-size: 1.2rem; color: #16a085; margin-bottom: 1.5rem;">@ViewBag.Message</h3>
 
-    <address>
-        One Microsoft Way<br />
-        Redmond, WA 98052-6399<br />
-        <abbr title="Phone">P:</abbr>
-        425.555.0100
-    </address>
+    <section style="background-color: #ecf0f1; padding: 1.5rem; border-radius: 8px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
+        <h4 style="font-size: 1.5rem; color: #2980b9;">Azienda</h4>
+        <p style="margin: 0.5rem 0;"><strong>Soluzioni Integrate di Passeri Giuseppe</strong></p>
 
-    <address>
-        <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-        <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-    </address>
+        <h4 style="font-size: 1.5rem; color: #2980b9; margin-top: 1rem;">Indirizzo</h4>
+        <address style="font-style: normal; margin: 0.5rem 0;">
+            P.IVA 0432214002
+        </address>
+
+        <h4 style="font-size: 1.5rem; color: #2980b9; margin-top: 1rem;">Contatti</h4>
+        <p style="margin: 0.5rem 0;"><strong>Email:</strong> <a href="mailto:passeri@solupoint.com" style="color: #3498db;">passeri@solupoint.com</a></p>
+    </section>
 </main>

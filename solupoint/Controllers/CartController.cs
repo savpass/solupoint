@@ -45,7 +45,8 @@ namespace solupoint.Controllers
                 if (payment.ProcessPayment(ref customerBalance))
                 {
                     // Save the payment record to JSON
-                    
+
+                    payment.SavePayment();
                     Console.WriteLine("Payment processed and saved successfully.");
                 }
                 else
@@ -59,8 +60,7 @@ namespace solupoint.Controllers
             }
 
 
-            if (payment.PaymentStatus == "Completed")
-                payment.SavePayment();
+            ;
 
             // Retrieve all payments for the customer
             List<PaymentCheck> customerPayments = PaymentCheck.GetCustomerPayments(customerId);

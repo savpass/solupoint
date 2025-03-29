@@ -7,7 +7,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAXWcfHdEPN0uQn0/XeQpKVgAAAAACAAAAAAAQZgAAAAEAACAAAADqfY2vZRfOVl0oPO51UAr/lDFlQv9hbBF4dZsy9Nf3NAAAAAAOgAAAAAIAACAAAAC03CMPFKLyiE+vnsnr6dKxG0hfn0Awgea+rV6k19OfSCAAAADiQVrjoWqTfdD1TPcrQAMWJMYP6KpHNaATz9AikyUTC0AAAAATXzcRcDTGM8F9DO0GI2RDuMydSrUCgrMqTj90qXH4n5UAgUT4u64PAoNXBoEq7oytkLsRGX147bX/klMnUTtZ</EncryptedPassword>
     <_PublishTargetUrl>ftp://ftp.solupoint.com/solupoint.com</_PublishTargetUrl>
-    <History>True|2024-11-03T07:12:57.9612284Z||;True|2024-11-02T09:44:36.7244869+01:00||;True|2024-11-02T08:47:31.1708209+01:00||;True|2024-11-02T08:38:18.7832320+01:00||;</History>
+    <History>True|2025-02-09T22:11:16.2593490Z||;True|2025-02-09T23:09:21.1484761+01:00||;True|2025-02-09T21:04:28.1420273+01:00||;False|2025-02-09T21:02:15.8397788+01:00||;True|2025-02-09T20:52:04.9540516+01:00||;True|2024-11-05T17:56:56.3893060+01:00||;True|2024-11-05T17:52:20.5110990+01:00||;True|2024-11-05T16:47:18.8119530+01:00||;True|2024-11-04T21:34:53.8799557+01:00||;True|2024-11-04T21:05:55.4857581+01:00||;True|2024-11-04T21:03:01.2605504+01:00||;True|2024-11-04T20:57:30.0766369+01:00||;True|2024-11-03T22:56:19.1536191+01:00||;True|2024-11-03T08:12:57.9612284+01:00||;True|2024-11-02T09:44:36.7244869+01:00||;True|2024-11-02T08:47:31.1708209+01:00||;True|2024-11-02T08:38:18.7832320+01:00||;</History>
     <LastFailureDetails />
   </PropertyGroup>
   <ItemGroup>
@@ -204,10 +204,10 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>08/08/2018 13:18:16</publishTime>
     </File>
     <File Include="bin/solupoint.dll">
-      <publishTime>11/03/2024 08:12:16</publishTime>
+      <publishTime>02/10/2025 00:01:44</publishTime>
     </File>
     <File Include="bin/solupoint.pdb">
-      <publishTime>11/03/2024 08:12:16</publishTime>
+      <publishTime>02/10/2025 00:01:44</publishTime>
     </File>
     <File Include="bin/System.Net.Http.Formatting.dll">
       <publishTime>05/28/2022 00:41:34</publishTime>
@@ -243,208 +243,223 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>01/23/2014 13:57:34</publishTime>
     </File>
     <File Include="Content/bootstrap-grid.css">
-      <publishTime>11/02/2024 08:29:58</publishTime>
+      <publishTime>02/11/2024 08:29:58</publishTime>
     </File>
     <File Include="Content/bootstrap-grid.css.map">
-      <publishTime>11/02/2024 08:29:58</publishTime>
+      <publishTime>02/11/2024 08:29:58</publishTime>
     </File>
     <File Include="Content/bootstrap-grid.min.css">
-      <publishTime>11/02/2024 08:29:58</publishTime>
+      <publishTime>02/11/2024 08:29:58</publishTime>
     </File>
     <File Include="Content/bootstrap-grid.min.css.map">
-      <publishTime>11/02/2024 08:29:58</publishTime>
+      <publishTime>02/11/2024 08:29:58</publishTime>
     </File>
     <File Include="Content/bootstrap-grid.rtl.css">
-      <publishTime>11/02/2024 08:29:58</publishTime>
+      <publishTime>02/11/2024 08:29:58</publishTime>
     </File>
     <File Include="Content/bootstrap-grid.rtl.css.map">
-      <publishTime>11/02/2024 08:29:58</publishTime>
+      <publishTime>02/11/2024 08:29:58</publishTime>
     </File>
     <File Include="Content/bootstrap-grid.rtl.min.css">
-      <publishTime>11/02/2024 08:29:58</publishTime>
+      <publishTime>02/11/2024 08:29:58</publishTime>
     </File>
     <File Include="Content/bootstrap-grid.rtl.min.css.map">
-      <publishTime>11/02/2024 08:29:58</publishTime>
+      <publishTime>02/11/2024 08:29:58</publishTime>
     </File>
     <File Include="Content/bootstrap-reboot.css">
-      <publishTime>11/02/2024 08:29:58</publishTime>
+      <publishTime>02/11/2024 08:29:58</publishTime>
     </File>
     <File Include="Content/bootstrap-reboot.css.map">
-      <publishTime>11/02/2024 08:29:58</publishTime>
+      <publishTime>02/11/2024 08:29:58</publishTime>
     </File>
     <File Include="Content/bootstrap-reboot.min.css">
-      <publishTime>11/02/2024 08:29:58</publishTime>
+      <publishTime>02/11/2024 08:29:58</publishTime>
     </File>
     <File Include="Content/bootstrap-reboot.min.css.map">
-      <publishTime>11/02/2024 08:29:58</publishTime>
+      <publishTime>02/11/2024 08:29:58</publishTime>
     </File>
     <File Include="Content/bootstrap-reboot.rtl.css">
-      <publishTime>11/02/2024 08:29:58</publishTime>
+      <publishTime>02/11/2024 08:29:58</publishTime>
     </File>
     <File Include="Content/bootstrap-reboot.rtl.css.map">
-      <publishTime>11/02/2024 08:29:58</publishTime>
+      <publishTime>02/11/2024 08:29:58</publishTime>
     </File>
     <File Include="Content/bootstrap-reboot.rtl.min.css">
-      <publishTime>11/02/2024 08:29:58</publishTime>
+      <publishTime>02/11/2024 08:29:58</publishTime>
     </File>
     <File Include="Content/bootstrap-reboot.rtl.min.css.map">
-      <publishTime>11/02/2024 08:29:58</publishTime>
+      <publishTime>02/11/2024 08:29:58</publishTime>
     </File>
     <File Include="Content/bootstrap-utilities.css">
-      <publishTime>11/02/2024 08:29:58</publishTime>
+      <publishTime>02/11/2024 08:29:58</publishTime>
     </File>
     <File Include="Content/bootstrap-utilities.css.map">
-      <publishTime>11/02/2024 08:29:58</publishTime>
+      <publishTime>02/11/2024 08:29:58</publishTime>
     </File>
     <File Include="Content/bootstrap-utilities.min.css">
-      <publishTime>11/02/2024 08:29:58</publishTime>
+      <publishTime>02/11/2024 08:29:58</publishTime>
     </File>
     <File Include="Content/bootstrap-utilities.min.css.map">
-      <publishTime>11/02/2024 08:29:58</publishTime>
+      <publishTime>02/11/2024 08:29:58</publishTime>
     </File>
     <File Include="Content/bootstrap-utilities.rtl.css">
-      <publishTime>11/02/2024 08:29:58</publishTime>
+      <publishTime>02/11/2024 08:29:58</publishTime>
     </File>
     <File Include="Content/bootstrap-utilities.rtl.css.map">
-      <publishTime>11/02/2024 08:29:58</publishTime>
+      <publishTime>02/11/2024 08:29:58</publishTime>
     </File>
     <File Include="Content/bootstrap-utilities.rtl.min.css">
-      <publishTime>11/02/2024 08:29:58</publishTime>
+      <publishTime>02/11/2024 08:29:58</publishTime>
     </File>
     <File Include="Content/bootstrap-utilities.rtl.min.css.map">
-      <publishTime>11/02/2024 08:29:58</publishTime>
+      <publishTime>02/11/2024 08:29:58</publishTime>
     </File>
     <File Include="Content/bootstrap.css">
-      <publishTime>11/02/2024 08:29:58</publishTime>
+      <publishTime>02/11/2024 08:29:58</publishTime>
     </File>
     <File Include="Content/bootstrap.css.map">
-      <publishTime>11/02/2024 08:29:58</publishTime>
+      <publishTime>02/11/2024 08:29:58</publishTime>
     </File>
     <File Include="Content/bootstrap.min.css">
-      <publishTime>11/02/2024 08:29:58</publishTime>
+      <publishTime>02/11/2024 08:29:58</publishTime>
     </File>
     <File Include="Content/bootstrap.min.css.map">
-      <publishTime>11/02/2024 08:29:58</publishTime>
+      <publishTime>02/11/2024 08:29:58</publishTime>
     </File>
     <File Include="Content/bootstrap.rtl.css">
-      <publishTime>11/02/2024 08:29:57</publishTime>
+      <publishTime>02/11/2024 08:29:57</publishTime>
     </File>
     <File Include="Content/bootstrap.rtl.css.map">
-      <publishTime>11/02/2024 08:29:57</publishTime>
+      <publishTime>02/11/2024 08:29:57</publishTime>
     </File>
     <File Include="Content/bootstrap.rtl.min.css">
-      <publishTime>11/02/2024 08:29:57</publishTime>
+      <publishTime>02/11/2024 08:29:57</publishTime>
     </File>
     <File Include="Content/bootstrap.rtl.min.css.map">
-      <publishTime>11/02/2024 08:29:57</publishTime>
+      <publishTime>02/11/2024 08:29:57</publishTime>
     </File>
     <File Include="Content/Site.css">
-      <publishTime>11/02/2024 08:29:50</publishTime>
+      <publishTime>02/11/2024 08:29:50</publishTime>
     </File>
     <File Include="favicon.ico">
-      <publishTime>11/02/2024 08:29:50</publishTime>
+      <publishTime>02/11/2024 08:29:50</publishTime>
     </File>
     <File Include="Global.asax">
-      <publishTime>11/02/2024 08:29:50</publishTime>
+      <publishTime>02/11/2024 08:29:50</publishTime>
     </File>
     <File Include="Scripts/bootstrap.bundle.js">
-      <publishTime>11/02/2024 08:29:57</publishTime>
+      <publishTime>11/01/2024 19:44:52</publishTime>
     </File>
     <File Include="Scripts/bootstrap.bundle.js.map">
-      <publishTime>11/02/2024 08:29:57</publishTime>
+      <publishTime>11/01/2024 19:44:52</publishTime>
     </File>
     <File Include="Scripts/bootstrap.bundle.min.js">
-      <publishTime>11/02/2024 08:29:57</publishTime>
+      <publishTime>11/01/2024 19:44:52</publishTime>
     </File>
     <File Include="Scripts/bootstrap.bundle.min.js.map">
-      <publishTime>11/02/2024 08:29:57</publishTime>
+      <publishTime>11/01/2024 19:44:52</publishTime>
     </File>
     <File Include="Scripts/bootstrap.esm.js">
-      <publishTime>11/02/2024 08:29:57</publishTime>
+      <publishTime>11/01/2024 19:44:52</publishTime>
     </File>
     <File Include="Scripts/bootstrap.esm.js.map">
-      <publishTime>11/02/2024 08:29:57</publishTime>
+      <publishTime>11/01/2024 19:44:52</publishTime>
     </File>
     <File Include="Scripts/bootstrap.esm.min.js">
-      <publishTime>11/02/2024 08:29:57</publishTime>
+      <publishTime>11/01/2024 19:44:51</publishTime>
     </File>
     <File Include="Scripts/bootstrap.esm.min.js.map">
-      <publishTime>11/02/2024 08:29:57</publishTime>
+      <publishTime>11/01/2024 19:44:51</publishTime>
     </File>
     <File Include="Scripts/bootstrap.js">
-      <publishTime>11/02/2024 08:29:57</publishTime>
+      <publishTime>11/01/2024 19:44:51</publishTime>
     </File>
     <File Include="Scripts/bootstrap.js.map">
-      <publishTime>11/02/2024 08:29:57</publishTime>
+      <publishTime>11/01/2024 19:44:51</publishTime>
     </File>
     <File Include="Scripts/bootstrap.min.js">
-      <publishTime>11/02/2024 08:29:57</publishTime>
+      <publishTime>11/01/2024 19:44:51</publishTime>
     </File>
     <File Include="Scripts/bootstrap.min.js.map">
-      <publishTime>11/02/2024 08:29:57</publishTime>
+      <publishTime>11/01/2024 19:44:51</publishTime>
     </File>
     <File Include="Scripts/jquery-3.7.0.js">
-      <publishTime>11/02/2024 08:29:59</publishTime>
+      <publishTime>11/01/2024 19:44:56</publishTime>
     </File>
     <File Include="Scripts/jquery-3.7.0.min.js">
-      <publishTime>11/02/2024 08:29:59</publishTime>
+      <publishTime>11/01/2024 19:44:56</publishTime>
     </File>
     <File Include="Scripts/jquery-3.7.0.min.map">
-      <publishTime>11/02/2024 08:29:59</publishTime>
+      <publishTime>11/01/2024 19:44:56</publishTime>
     </File>
     <File Include="Scripts/jquery-3.7.0.slim.js">
-      <publishTime>11/02/2024 08:29:59</publishTime>
+      <publishTime>11/01/2024 19:44:56</publishTime>
     </File>
     <File Include="Scripts/jquery-3.7.0.slim.min.js">
-      <publishTime>11/02/2024 08:29:59</publishTime>
+      <publishTime>11/01/2024 19:44:56</publishTime>
     </File>
     <File Include="Scripts/jquery-3.7.0.slim.min.map">
-      <publishTime>11/02/2024 08:29:59</publishTime>
+      <publishTime>11/01/2024 19:44:56</publishTime>
     </File>
     <File Include="Scripts/jquery.validate.js">
-      <publishTime>11/02/2024 08:30:03</publishTime>
+      <publishTime>11/01/2024 19:45:02</publishTime>
     </File>
     <File Include="Scripts/jquery.validate.min.js">
-      <publishTime>11/02/2024 08:30:03</publishTime>
+      <publishTime>11/01/2024 19:45:02</publishTime>
     </File>
     <File Include="Scripts/jquery.validate.unobtrusive.js">
-      <publishTime>11/02/2024 08:30:04</publishTime>
+      <publishTime>11/01/2024 19:45:02</publishTime>
     </File>
     <File Include="Scripts/jquery.validate.unobtrusive.min.js">
-      <publishTime>11/02/2024 08:30:04</publishTime>
+      <publishTime>11/01/2024 19:45:02</publishTime>
     </File>
     <File Include="Scripts/modernizr-2.8.3.js">
-      <publishTime>11/02/2024 08:30:02</publishTime>
+      <publishTime>11/01/2024 19:45:01</publishTime>
+    </File>
+    <File Include="Views/Account/Login.cshtml">
+      <publishTime>04/11/2024 21:33:26</publishTime>
+    </File>
+    <File Include="Views/Account/Pagamenti.cshtml">
+      <publishTime>11/10/2024 00:09:15</publishTime>
+    </File>
+    <File Include="Views/Account/Register.cshtml">
+      <publishTime>04/11/2024 21:32:25</publishTime>
     </File>
     <File Include="Views/Cart/Checkout.cshtml">
-      <publishTime>02/11/2024 09:40:44</publishTime>
+      <publishTime>03/11/2024 21:43:10</publishTime>
     </File>
     <File Include="Views/Home/About.cshtml">
-      <publishTime>11/02/2024 08:29:50</publishTime>
+      <publishTime>02/09/2025 20:49:47</publishTime>
     </File>
     <File Include="Views/Home/Cart.cshtml">
       <publishTime>02/11/2024 09:39:23</publishTime>
     </File>
     <File Include="Views/Home/Contact.cshtml">
-      <publishTime>11/02/2024 08:29:50</publishTime>
+      <publishTime>05/11/2024 16:16:36</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>02/11/2024 09:01:37</publishTime>
+      <publishTime>05/11/2024 16:48:58</publishTime>
+    </File>
+    <File Include="Views/Home/MenuView.cshtml">
+      <publishTime>11/10/2024 00:23:10</publishTime>
+    </File>
+    <File Include="Views/Pagamenti/Pagamenti.cshtml">
+      <publishTime>11/06/2024 08:19:28</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
-      <publishTime>11/02/2024 08:29:50</publishTime>
+      <publishTime>11/01/2024 19:44:15</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>02/11/2024 09:30:15</publishTime>
+      <publishTime>11/10/2024 00:18:54</publishTime>
     </File>
     <File Include="Views/Web.config">
       <publishTime>02/11/2024 09:01:37</publishTime>
     </File>
     <File Include="Views/_ViewStart.cshtml">
-      <publishTime>11/02/2024 08:29:50</publishTime>
+      <publishTime>11/01/2024 19:44:15</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>11/03/2024 08:12:21</publishTime>
+      <publishTime>02/10/2025 00:01:46</publishTime>
     </File>
   </ItemGroup>
 </Project>

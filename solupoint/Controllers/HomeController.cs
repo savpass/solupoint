@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using System.Web.Mvc;
 
 namespace solupoint.Controllers
@@ -16,20 +13,36 @@ namespace solupoint.Controllers
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
-
             return View();
         }
 
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
-
             return View();
         }
 
         public ActionResult Cart()
         {
             return View();
+        }
+
+  
+
+        // License Provisioning Endpoint
+        [HttpPost]
+        [Route("Home/ProvisionLicense")]
+        public JsonResult ProvisionLicense(string clientId, int productId)
+        {
+            if (string.IsNullOrEmpty(clientId) || productId <= 0)
+            {
+                return Json(new { success = false, message = "Invalid request parameters." });
+            }
+
+            // Generate a unique license key
+            string licenseKey = $"{clientId}-{productId}-{Guid.NewGuid()}";
+
+            return Json(new { success = true, licenseKey = licenseKey });
         }
     }
 }

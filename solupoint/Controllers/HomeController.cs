@@ -27,7 +27,13 @@ namespace solupoint.Controllers
             return View();
         }
 
-  
+        [Route("privacy-policy")]
+        public ActionResult PrivacyPolicy()
+        {
+            return View();
+        }
+
+
 
         // License Provisioning Endpoint
         [HttpPost]

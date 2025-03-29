@@ -202,6 +202,7 @@
     <Content Include="Views\Pagamenti\Pagamenti.cshtml" />
     <Content Include="Views\Account\Pagamenti.cshtml" />
     <Content Include="Views\Home\MenuView.cshtml" />
+    <Content Include="Views\Home\PrivacyPolicyView.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

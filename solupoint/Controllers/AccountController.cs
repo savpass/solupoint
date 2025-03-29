@@ -25,9 +25,6 @@ namespace solupoint.Controllers
 
     public class AccountController : Controller
     {
-
-
-
         public ActionResult Pagamenti()
         {
             // Path to the JSON file

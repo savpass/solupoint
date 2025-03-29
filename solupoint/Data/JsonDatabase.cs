@@ -19,7 +19,7 @@ namespace solupoint.Data
             if (!File.Exists(PaymentFilePath))
             {
                 //
-                return new List<PaymentCheck>(); // Return empty list if file doesn't exist
+                return new List<PaymentCheck>(); 
             }
 
             string jsonData = File.ReadAllText(PaymentFilePath);

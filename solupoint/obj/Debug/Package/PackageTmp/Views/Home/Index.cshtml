@@ -3,31 +3,81 @@
 }
 
 <main>
-    <section class="row" aria-labelledby="aspnetTitle">
-        <h1 id="title"> Solupoint</h1>
-        <p class="lead">Benvenuti in Solupoint.</p>
-        <p><a href="https://asp.net" class="btn btn-primary btn-md">Learn more &raquo;</a></p>
+    <header class="hero text-center text-white">
+        <h1 class="display-4">Benvenuti in Solupoint</h1>
+    </header>
+
+    <section class="container info-section text-center">
+        <h2 class="mb-4">Chi Siamo</h2>
+        <p class="lead">Solupoint è un'azienda leader nel settore dei gestionali, registratori di cassa, bilance e soluzioni hardware e software per il retail.</p>
     </section>
 
-    <div class="row">
-        <section class="col-md-4" aria-labelledby="gettingStartedTitle">
-            <h2 id="gettingStartedTitle">Getting started</h2>
-            <p>
-                ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-                enables a clean separation of concerns and gives you full control over markup
-                for enjoyable, agile development.
-            </p>
-            <p><a class="btn btn-outline-dark" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
-        </section>
-        <section class="col-md-4" aria-labelledby="librariesTitle">
-            <h2 id="librariesTitle">Get more libraries</h2>
-            <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-            <p><a class="btn btn-outline-dark" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
-        </section>
-        <section class="col-md-4" aria-labelledby="hostingTitle">
-            <h2 id="hostingTitle">Web Hosting</h2>
-            <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-            <p><a class="btn btn-outline-dark" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
-        </section>
-    </div>
+
+    <section class="container products-section text-center mt-5">
+        <h2 class="mb-4">I Nostri Prodotti</h2>
+        <div class="row g-4">
+            <div class="col-md-3">
+                <div class="product-box text-center">
+                    <h3>Registratori di Cassa</h3>
+                    <p>Soluzioni moderne e intuitive per la gestione del punto vendita.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="product-box text-center">
+                    <h3>CashPoint Software</h3>
+                    <p>Il software gestionale perfetto per semplificare la contabilità e le vendite.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="product-box text-center">
+                    <h3>Bilance</h3>
+                    <p>Strumenti di pesatura precisi e affidabili per ogni esigenza.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="product-box text-center">
+                    <h3>Rendiresto</h3>
+                    <p>Soluzioni automatiche per un pagamento rapido e senza errori.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center mt-5 p-4 bg-dark text-white">
+        <p>&copy; 2025 Soluzioni Integrate - Tutti i diritti riservati</p>
+    </footer>
 </main>
+
+<style>
+    .hero {
+        background: url('https://source.unsplash.com/1600x900/?technology') no-repeat center center/cover;
+        height: 80vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+        animation: fadeIn 2s ease-in-out;
+    }
+    @@keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+    .info-section {
+        padding: 50px 20px;
+    }
+    .info-box, .product-box {
+        background: white;
+        padding: 30px;
+        border-radius: 15px;
+        box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+        transition: transform 0.3s;
+    }
+    .info-box:hover, .product-box:hover {
+        transform: translateY(-10px);
+    }
+    .products-section {
+        padding: 50px 20px;
+        background: #f8f9fa;
+        border-radius: 15px;
+    }
+</style>

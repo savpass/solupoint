@@ -7,7 +7,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAXWcfHdEPN0uQn0/XeQpKVgAAAAACAAAAAAAQZgAAAAEAACAAAADqfY2vZRfOVl0oPO51UAr/lDFlQv9hbBF4dZsy9Nf3NAAAAAAOgAAAAAIAACAAAAC03CMPFKLyiE+vnsnr6dKxG0hfn0Awgea+rV6k19OfSCAAAADiQVrjoWqTfdD1TPcrQAMWJMYP6KpHNaATz9AikyUTC0AAAAATXzcRcDTGM8F9DO0GI2RDuMydSrUCgrMqTj90qXH4n5UAgUT4u64PAoNXBoEq7oytkLsRGX147bX/klMnUTtZ</EncryptedPassword>
     <_PublishTargetUrl>ftp://ftp.solupoint.com/solupoint.com</_PublishTargetUrl>
-    <History>True|2025-03-29T17:17:29.1620830Z||;True|2025-02-09T23:11:16.2593490+01:00||;True|2025-02-09T23:09:21.1484761+01:00||;True|2025-02-09T21:04:28.1420273+01:00||;False|2025-02-09T21:02:15.8397788+01:00||;True|2025-02-09T20:52:04.9540516+01:00||;True|2024-11-05T17:56:56.3893060+01:00||;True|2024-11-05T17:52:20.5110990+01:00||;True|2024-11-05T16:47:18.8119530+01:00||;True|2024-11-04T21:34:53.8799557+01:00||;True|2024-11-04T21:05:55.4857581+01:00||;True|2024-11-04T21:03:01.2605504+01:00||;True|2024-11-04T20:57:30.0766369+01:00||;True|2024-11-03T22:56:19.1536191+01:00||;True|2024-11-03T08:12:57.9612284+01:00||;True|2024-11-02T09:44:36.7244869+01:00||;True|2024-11-02T08:47:31.1708209+01:00||;True|2024-11-02T08:38:18.7832320+01:00||;</History>
+    <History>False|2025-03-30T11:45:22.3445190Z||;True|2025-03-29T23:31:09.3570498+01:00||;True|2025-03-29T18:17:29.1620830+01:00||;True|2025-02-09T23:11:16.2593490+01:00||;True|2025-02-09T23:09:21.1484761+01:00||;True|2025-02-09T21:04:28.1420273+01:00||;False|2025-02-09T21:02:15.8397788+01:00||;True|2025-02-09T20:52:04.9540516+01:00||;True|2024-11-05T17:56:56.3893060+01:00||;True|2024-11-05T17:52:20.5110990+01:00||;True|2024-11-05T16:47:18.8119530+01:00||;True|2024-11-04T21:34:53.8799557+01:00||;True|2024-11-04T21:05:55.4857581+01:00||;True|2024-11-04T21:03:01.2605504+01:00||;True|2024-11-04T20:57:30.0766369+01:00||;True|2024-11-03T22:56:19.1536191+01:00||;True|2024-11-03T08:12:57.9612284+01:00||;True|2024-11-02T09:44:36.7244869+01:00||;True|2024-11-02T08:47:31.1708209+01:00||;True|2024-11-02T08:38:18.7832320+01:00||;</History>
     <LastFailureDetails />
   </PropertyGroup>
   <ItemGroup>
@@ -75,25 +75,25 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>03/29/2025 17:04:01</publishTime>
     </File>
     <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
-      <publishTime>03/29/2025 17:04:00</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
-      <publishTime>03/29/2025 17:04:00</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
-      <publishTime>03/29/2025 17:04:00</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
-      <publishTime>03/29/2025 17:04:00</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
-      <publishTime>03/29/2025 17:04:00</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
-      <publishTime>03/29/2025 17:04:00</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
-      <publishTime>03/29/2025 17:04:00</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
       <publishTime>03/29/2025 17:04:01</publishTime>
@@ -204,10 +204,10 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>03/29/2025 17:04:01</publishTime>
     </File>
     <File Include="bin/solupoint.dll">
-      <publishTime>03/29/2025 18:12:56</publishTime>
+      <publishTime>03/29/2025 23:25:14</publishTime>
     </File>
     <File Include="bin/solupoint.pdb">
-      <publishTime>03/29/2025 18:12:56</publishTime>
+      <publishTime>03/29/2025 23:25:14</publishTime>
     </File>
     <File Include="bin/System.Net.Http.Formatting.dll">
       <publishTime>03/29/2025 17:03:57</publishTime>
@@ -429,10 +429,10 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>03/29/2025 17:04:04</publishTime>
     </File>
     <File Include="Views/Home/About.cshtml">
-      <publishTime>03/29/2025 18:12:32</publishTime>
+      <publishTime>03/30/2025 13:40:20</publishTime>
     </File>
     <File Include="Views/Home/Cart.cshtml">
-      <publishTime>03/29/2025 17:04:04</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Views/Home/Contact.cshtml">
       <publishTime>03/29/2025 18:12:32</publishTime>
@@ -445,6 +445,9 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
     </File>
     <File Include="Views/Pagamenti/Pagamenti.cshtml">
       <publishTime>03/29/2025 18:12:32</publishTime>
+    </File>
+    <File Include="Views/PrivacyPolicy/PrivacyPolicy.cshtml">
+      <publishTime>03/30/2025 13:41:25</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
       <publishTime>03/29/2025 17:04:04</publishTime>

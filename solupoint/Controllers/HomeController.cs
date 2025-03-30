@@ -22,6 +22,14 @@ namespace solupoint.Controllers
             return View();
         }
 
+        public ActionResult Prodotti()
+        {
+            ViewBag.Message = "Your contact page.";
+            return View();
+        }
+
+
+
         public ActionResult Cart()
         {
             return View();

@@ -1,14 +1,53 @@
 ﻿@{
-    ViewBag.Title = "About";
+    ViewBag.Title = "Chi Siamo";
 }
-<main aria-labelledby="title">
-    <h2 id="title">@ViewBag.Title.</h2>
-    <h3>@ViewBag.Message</h3>
+<main aria-labelledby="title" style="font-family: Arial, sans-serif; max-width: 900px; margin: 0 auto; padding: 2rem;">
+    <h2 id="title" style="font-size: 2.5rem; color: #2c3e50; text-align: center; margin-bottom: 1rem;">@ViewBag.Title</h2>
+    @*<h3 style="font-size: 1.5rem; color: #16a085; text-align: center; margin-bottom: 2rem;">@ViewBag.Message</h3>*@
 
-    <p>Use this area to provide additional information.</p>
+    <section style="background-color: #ecf0f1; padding: 2rem; border-radius: 8px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
+        <h4 style="font-size: 1.8rem; color: #2980b9; margin-bottom: 1rem;">Chi Siamo</h4>
+        <p style="font-size: 1rem; color: #7f8c8d; line-height: 1.6;">
+            Siamo un'azienda che offre soluzioni innovative per migliorare l'efficienza e la qualità della vita lavorativa e domestica.
+            La nostra missione è quella di fornire prodotti di alta qualità che soddisfano le esigenze quotidiane, con un'attenzione particolare
+            alla sostenibilità e al design.
+        </p>
 
-    <p>
-        @Html.ActionLink("View Privacy Policy", "PrivacyPolicy", "PrivacyPolicy", null, new { @class = "btn btn-primary" })
-    </p>
+        <h4 style="font-size: 1.8rem; color: #2980b9; margin-top: 2rem; margin-bottom: 1rem;">La Nostra Missione</h4>
+        <p style="font-size: 1rem; color: #7f8c8d; line-height: 1.6;">
+            La nostra missione è creare soluzioni che rispondano alle necessità reali dei nostri clienti, fornendo prodotti affidabili,
+            innovativi e a prezzi competitivi. Siamo impegnati nel continuo miglioramento dei nostri processi aziendali per garantire
+            qualità e soddisfazione.
+        </p>
 
+        <h4 style="font-size: 1.8rem; color: #2980b9; margin-top: 2rem; margin-bottom: 1rem;">La Nostra Storia</h4>
+        <p style="font-size: 1rem; color: #7f8c8d; line-height: 1.6;">
+            Fondata nel 2005, la nostra azienda è cresciuta con il passare degli anni, conquistando la fiducia di clienti in tutta Italia.
+            Ogni giorno ci impegniamo per offrire prodotti che uniscono tecnologia avanzata, estetica e praticità. Siamo orgogliosi del nostro
+            percorso e del nostro impegno continuo per il miglioramento.
+        </p>
+    </section>
+
+    <section style="margin-top: 3rem; text-align: center;">
+        <h4 style="font-size: 1.5rem; color: #2980b9;">Privacy e Termini</h4>
+        <p style="font-size: 1rem; color: #7f8c8d; margin-bottom: 1rem;">Per maggiori informazioni sulla nostra politica sulla privacy, puoi leggere i dettagli qui sotto:</p>
+        <p>
+            @Html.ActionLink("Visualizza la Privacy Policy", "PrivacyPolicy", "PrivacyPolicy", null, new { @class = "btn btn-primary", style = "padding: 0.5rem 1rem; font-size: 1rem; background-color: #3498db; color: white; text-decoration: none; border-radius: 4px; display: inline-block;" })
+        </p>
+    </section>
 </main>
+
+<style>
+    section {
+        margin-bottom: 2rem;
+    }
+
+    h4 {
+        font-weight: bold;
+    }
+
+    .btn-primary:hover {
+        background-color: #2980b9;
+        color: white;
+    }
+</style>

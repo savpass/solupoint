@@ -12,24 +12,32 @@
         <p class="lead">Solupoint è un'azienda leader nel settore dei gestionali, registratori di cassa, bilance e soluzioni hardware e software per il retail.</p>
     </section>
 
-    <section class="container">
+
+    <section class="container products-section text-center mt-5">
+        <h2 class="mb-4">I Nostri Prodotti</h2>
         <div class="row g-4">
-            <div class="col-md-4">
-                <div class="info-box text-center">
-                    <h3>Software Gestionale</h3>
-                    <p>Forniamo soluzioni software avanzate per la gestione del tuo business, con interfacce intuitive e personalizzabili.</p>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="info-box text-center">
+            <div class="col-md-3">
+                <div class="product-box text-center">
                     <h3>Registratori di Cassa</h3>
-                    <p>Offriamo registratori di cassa di ultima generazione con funzionalità innovative per il tuo punto vendita.</p>
+                    <p>Soluzioni moderne e intuitive per la gestione del punto vendita.</p>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="info-box text-center">
-                    <h3>Bilance e Hardware</h3>
-                    <p>Bilance di precisione e soluzioni hardware affidabili per garantire un servizio impeccabile.</p>
+            <div class="col-md-3">
+                <div class="product-box text-center">
+                    <h3>CashPoint Software</h3>
+                    <p>Il software gestionale perfetto per semplificare la contabilità e le vendite.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="product-box text-center">
+                    <h3>Bilance</h3>
+                    <p>Strumenti di pesatura precisi e affidabili per ogni esigenza.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="product-box text-center">
+                    <h3>Rendiresto</h3>
+                    <p>Soluzioni automatiche per un pagamento rapido e senza errori.</p>
                 </div>
             </div>
         </div>
@@ -57,14 +65,19 @@
     .info-section {
         padding: 50px 20px;
     }
-    .info-box {
+    .info-box, .product-box {
         background: white;
         padding: 30px;
         border-radius: 15px;
         box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
         transition: transform 0.3s;
     }
-    .info-box:hover {
+    .info-box:hover, .product-box:hover {
         transform: translateY(-10px);
+    }
+    .products-section {
+        padding: 50px 20px;
+        background: #f8f9fa;
+        border-radius: 15px;
     }
 </style>

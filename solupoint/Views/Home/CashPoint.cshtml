@@ -1,0 +1,151 @@
+﻿@{
+    ViewBag.Title = "Scontrino Senza Cassa";
+    Layout = "~/Views/Shared/_Layout.cshtml";  // Se hai un layout comune
+}
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Genera scontrini elettronici senza registratore di cassa, in modo semplice e veloce.">
+    <title>@ViewBag.Title</title>
+
+    <!-- Include CSS -->
+    <link rel="stylesheet" href="~/Content/styles.css" />
+    <link rel="stylesheet" href="~/Content/bootstrap.min.css" />
+
+    <!-- Include jQuery and other JS libraries -->
+    <script src="~/Scripts/jquery-3.6.0.min.js"></script>
+    <script src="~/Scripts/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Scontrino Senza Cassa</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Chi Siamo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Servizi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contatti</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="hero" class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-4">Emetti Scontrini Elettronici in Pochi Click</h1>
+            <p class="lead">Soluzione rapida e semplice per negozianti e professionisti.</p>
+            <a href="#register" class="btn btn-light btn-lg">Provalo Subito</a>
+        </div>
+    </section>
+
+    <section id="about" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center">Chi Siamo</h2>
+            <p class="lead text-center">Siamo un team di sviluppatori e esperti di contabilità che hanno creato una piattaforma innovativa per semplificare l'emissione di scontrini elettronici.</p>
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>Missione</h4>
+                    <p>Aiutiamo i negozianti a risparmiare tempo e denaro, senza la necessità di registratori di cassa costosi.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Visione</h4>
+                    <p>Un mondo in cui tutti i commercianti possano emettere scontrini elettronici in modo semplice e senza vincoli burocratici.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Team</h4>
+                    <p>Un gruppo di esperti pronti a supportarti in ogni fase dell'uso del nostro sistema.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-5">
+        <div class="container">
+            <h2 class="text-center">I Nostri Servizi</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="~/Images/service1.jpg" class="card-img-top" alt="Servizio 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Emessione Scontrini Elettronici</h5>
+                            <p class="card-text">Genera e invia scontrini elettronici direttamente dal nostro sistema online.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="~/Images/service2.jpg" class="card-img-top" alt="Servizio 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Contabilità e Report</h5>
+                            <p class="card-text">Accedi a report dettagliati per tenere traccia delle tue vendite e delle tue operazioni fiscali.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="~/Images/service3.jpg" class="card-img-top" alt="Servizio 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Assistenza Clienti</h5>
+                            <p class="card-text">Il nostro team di supporto è sempre pronto a risolvere i tuoi problemi.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="register" class="bg-dark text-white text-center py-5">
+        <div class="container">
+            <h2>Inizia Subito</h2>
+            <p class="lead">Prova la app direttamente dal web!</p>
+            <a href="https://api.solupoint.com" class="btn btn-light btn-lg">Prova Ora</a>
+        </div>
+    </section>
+
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center">Contattaci</h2>
+            <form method="post" action="/Home/SendContact">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="name">Nome</label>
+                            <input type="text" id="name" class="form-control" name="name" required />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" class="form-control" name="email" required />
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Messaggio</label>
+                    <textarea id="message" class="form-control" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Invia Messaggio</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="text-center py-4 bg-dark text-white">
+        <p>&copy; 2025 Scontrino Senza Cassa | Tutti i diritti riservati.</p>
+    </footer>
+</body>
+</html>

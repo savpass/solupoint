@@ -28,6 +28,11 @@ namespace solupoint.Controllers
             return View();
         }
 
+        public ActionResult CashPoint()
+        {
+            ViewBag.Message = "Your contact page.";
+            return View();
+        }
 
 
         public ActionResult Cart()

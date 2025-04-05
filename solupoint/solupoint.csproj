@@ -205,9 +205,11 @@
     <Content Include="Views\Home\MenuView.cshtml" />
     <Content Include="Views\PrivacyPolicy\PrivacyPolicy.cshtml" />
     <Content Include="Views\Home\Prodotti.cshtml" />
+    <Content Include="Views\Home\CashPoint.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\CashPoint\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.rtl.min.css.map" />

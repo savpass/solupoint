@@ -1,21 +1,94 @@
 ﻿@{
-    ViewBag.Title = "Articoli";
-    ViewBag.Message = "Siamo qui per assisterti!";
+    ViewBag.Title = "Contattaci";
+    ViewBag.Message = "Siamo qui per aiutarti a gestire la tua attività in modo semplice e veloce!";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
-<main aria-labelledby="title" style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 2rem;">
-    @*<h2 id="title" style="font-size: 2rem; color: #2c3e50; margin-bottom: 0.5rem;">@ViewBag.Title</h2>
-    <h3 style="font-size: 1.2rem; color: #16a085; margin-bottom: 1.5rem;">@ViewBag.Message</h3>*@
 
-    <section style="background-color: #ecf0f1; padding: 1.5rem; border-radius: 8px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
-        <h4 style="font-size: 1.5rem; color: #2980b9;">Azienda</h4>
-        <p style="margin: 0.5rem 0;"><strong>Soluzioni Integrate</strong></p>
+<section class="container py-5" style="font-family: 'Segoe UI', sans-serif;">
+    <div class="row justify-content-center mb-4">
+        <div class="col-md-8 text-center" data-aos="fade-down">
+            <h1 class="display-5 fw-bold text-primary">@ViewBag.Title</h1>
+            <p class="lead">@ViewBag.Message</p>
+        </div>
+    </div>
 
-        <h4 style="font-size: 1.5rem; color: #2980b9; margin-top: 1rem;">Partita IVA</h4>
-        <address style="font-style: normal; margin: 0.5rem 0;">
-            P.IVA 04133214002
-        </address>
+    <div class="row justify-content-center">
+        <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="bg-light rounded shadow p-4">
+                <h4 class="text-primary mb-3">📍 Azienda</h4>
+                <p><strong>CashPoint - Soluzioni Digitali</strong></p>
 
-        <h4 style="font-size: 1.5rem; color: #2980b9; margin-top: 1rem;">Contatti</h4>
-        <p style="margin: 0.5rem 0;"><strong>Email:</strong> <a href="mailto:info@solupoint.com" style="color: #3498db;">info@solupoint.com</a></p>
-    </section>
-</main>
+                <h4 class="text-primary mt-4 mb-2">🧾 Partita IVA</h4>
+                <p>P.IVA 04133214002</p>
+
+                <h4 class="text-primary mt-4 mb-2">📧 Contatti</h4>
+                <p><strong>Email:</strong> <a href="mailto:info@solupoint.com" class="text-decoration-none text-dark">info@solupoint.com</a></p>
+
+                <h4 class="text-primary mt-4 mb-2">🕒 Orari</h4>
+                <p>Lun–Ven: 9:00 – 18:00</p>
+            </div>
+        </div>
+
+        <div class="col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="bg-white rounded shadow p-4">
+                <h4 class="text-primary mb-3">✉️ Scrivici un messaggio</h4>
+                <form method="post" action="/Home/SendContact">
+                    <div class="form-group mb-3">
+                        <label for="name">Nome</label>
+                        <input type="text" class="form-control" id="name" name="name" required />
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" name="email" required />
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="message">Messaggio</label>
+                        <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-lg w-100 shadow">Invia</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- AOS Animation -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+    AOS.init({ duration: 800, once: true });
+</script>
+
+<!-- WhatsApp Floating Chat Button -->
+<a href="https://wa.me/393345607393?text=Ciao%20CashPoint%2C%20ho%20bisogno%20di%20assistenza!"
+   class="whatsapp-float" target="_blank" title="Chatta con noi su WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+</a>
+
+<style>
+    .whatsapp-float {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: #25d366;
+        color: white;
+        border-radius: 50%;
+        padding: 16px;
+        font-size: 28px;
+        z-index: 9999;
+        box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+        transition: transform 0.3s ease;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+        .whatsapp-float:hover {
+            transform: scale(1.1);
+            color: white;
+            text-decoration: none;
+        }
+</style>
+

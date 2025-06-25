@@ -206,6 +206,8 @@
     <Content Include="Views\PrivacyPolicy\PrivacyPolicy.cshtml" />
     <Content Include="Views\Home\Prodotti.cshtml" />
     <Content Include="Views\Home\CashPoint.cshtml" />
+    <Content Include="Views\Home\Faq.cshtml" />
+    <Content Include="Views\Home\Costi.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

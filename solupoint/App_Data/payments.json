@@ -159,5 +159,33 @@
     "PaymentDate": "2024-11-10T00:11:06.882654+01:00",
     "IsPaymentValid": true,
     "PaymentStatus": "Completed"
+  },
+  {
+    "CustomerId": 123,
+    "PaymentAmount": 200.00,
+    "PaymentDate": "2025-06-25T13:57:18.6627987+02:00",
+    "IsPaymentValid": true,
+    "PaymentStatus": "Completed"
+  },
+  {
+    "CustomerId": 123,
+    "PaymentAmount": 200.00,
+    "PaymentDate": "2025-06-25T13:57:21.5916735+02:00",
+    "IsPaymentValid": true,
+    "PaymentStatus": "Completed"
+  },
+  {
+    "CustomerId": 123,
+    "PaymentAmount": 200.00,
+    "PaymentDate": "2025-06-25T13:57:22.3774724+02:00",
+    "IsPaymentValid": true,
+    "PaymentStatus": "Completed"
+  },
+  {
+    "CustomerId": 123,
+    "PaymentAmount": 200.00,
+    "PaymentDate": "2025-06-25T13:57:22.5507028+02:00",
+    "IsPaymentValid": true,
+    "PaymentStatus": "Completed"
   }
 ]

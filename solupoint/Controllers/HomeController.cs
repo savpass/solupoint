@@ -10,6 +10,11 @@ namespace solupoint.Controllers
             return View();
         }
 
+        public ActionResult Faq()
+        {
+            return View();
+        }
+
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
@@ -21,6 +26,12 @@ namespace solupoint.Controllers
             ViewBag.Message = "Your contact page.";
             return View();
         }
+
+        public ActionResult Costi()
+        {
+            return View();
+        }
+
 
         public ActionResult Prodotti()
         {

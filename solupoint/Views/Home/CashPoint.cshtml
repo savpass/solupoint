@@ -120,31 +120,171 @@
         </div>
     </section>
 
-    <!-- FAQ -->
+
+
     <section id="faq" class="container py-5">
         <h2 class="text-center mb-4">❓ Domande Frequenti (FAQ)</h2>
         <div class="accordion" id="faqAccordion">
-            @for (int i = 1; i <= 9; i++)
-            {
-                <div class="card" data-aos="fade-up" data-aos-delay="@((i - 1) * 100)">
-                    <div class="card-header" id="faq@i">
-                        <h5>
-                            <button class="btn btn-link collapsed d-flex justify-content-between w-100" data-toggle="collapse" data-target="#collapse@i">
-                                @* Replace below with actual questions *@
-                                Domanda @i <i class="fas fa-chevron-down ml-2 rotate-icon"></i>
-                            </button>
-                        </h5>
-                    </div>
-                    <div id="collapse@i" class="collapse" data-parent="#faqAccordion">
-                        <div class="card-body">
-                            @* Replace with actual answers *@
-                            Risposta alla domanda @i.
-                        </div>
+
+            <div class="card" data-aos="fade-up">
+                <div class="card-header" id="faq1">
+                    <h5>
+                        <button class="btn btn-link collapsed d-flex justify-content-between w-100" data-toggle="collapse" data-target="#collapse1">
+                            È veramente possibile fare lo scontrino senza acquistare il registratore di cassa telematico?
+                            <i class="fas fa-chevron-down ml-2 rotate-icon"></i>
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapse1" class="collapse" data-parent="#faqAccordion">
+                    <div class="card-body">
+                        Sì, con Billy, il registratore di cassa virtuale, non hai bisogno dei tradizionali registratori di cassa: è sufficiente un dispositivo collegato ad internet e il nostro software.<br><br>
+                        Al momento del pagamento basterà fare l’accesso al proprio account Billy da un qualsiasi dispositivo collegato ad internet ed utilizzarlo come un normale registratore di cassa; Billy invierà i dati all’Agenzia delle Entrate ed emetterà uno scontrino a norma di legge da inviare o consegnare al cliente.
                     </div>
                 </div>
-            }
+            </div>
+
+            <div class="card" data-aos="fade-up" data-aos-delay="100">
+                <div class="card-header" id="faq2">
+                    <h5>
+                        <button class="btn btn-link collapsed d-flex justify-content-between w-100" data-toggle="collapse" data-target="#collapse2">
+                            È obbligatorio consegnare al cliente uno scontrino cartaceo?
+                            <i class="fas fa-chevron-down ml-2 rotate-icon"></i>
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapse2" class="collapse" data-parent="#faqAccordion">
+                    <div class="card-body">
+                        L’art. 1 comma 4 del Decreto del 7 Dicembre 2016 recita: “Previo accordo con il destinatario, il documento commerciale può essere emesso in forma elettronica garantendone l’autenticità e l’integrità.”<br><br>
+                        Billy consente di inviare lo scontrino per email, WhatsApp o SMS.
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" data-aos="fade-up" data-aos-delay="200">
+                <div class="card-header" id="faq3">
+                    <h5>
+                        <button class="btn btn-link collapsed d-flex justify-content-between w-100" data-toggle="collapse" data-target="#collapse3">
+                            Billy è a norma di legge?
+                            <i class="fas fa-chevron-down ml-2 rotate-icon"></i>
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapse3" class="collapse" data-parent="#faqAccordion">
+                    <div class="card-body">
+                        Billy è realmente un registratore di cassa virtuale, rispetta tutte le norme di legge come un registratore di cassa tradizionale.<br><br>
+                        Al momento dell’emissione dello scontrino, il software si collega direttamente all’Agenzia delle Entrate comunicando immediatamente la transazione effettuata e rilasciando un documento commerciale da dare o inviare al cliente.
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" data-aos="fade-up" data-aos-delay="300">
+                <div class="card-header" id="faq4">
+                    <h5>
+                        <button class="btn btn-link collapsed d-flex justify-content-between w-100" data-toggle="collapse" data-target="#collapse4">
+                            Come si fa la chiusura giornaliera con Billy?
+                            <i class="fas fa-chevron-down ml-2 rotate-icon"></i>
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapse4" class="collapse" data-parent="#faqAccordion">
+                    <div class="card-body">
+                        Billy ti semplifica il lavoro!<br><br>
+                        Non è necessario fare la chiusura giornaliera della cassa perché Billy invia i dati all’Agenzia delle Entrate non appena viene emesso uno scontrino.
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" data-aos="fade-up" data-aos-delay="400">
+                <div class="card-header" id="faq5">
+                    <h5>
+                        <button class="btn btn-link collapsed d-flex justify-content-between w-100" data-toggle="collapse" data-target="#collapse5">
+                            Serve un personal computer per usare Billy?
+                            <i class="fas fa-chevron-down ml-2 rotate-icon"></i>
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapse5" class="collapse" data-parent="#faqAccordion">
+                    <div class="card-body">
+                        Ti bastano uno smartphone o un tablet connessi a internet.<br><br>
+                        Se lo preferisci puoi usare Billy anche dal tuo personal computer.
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" data-aos="fade-up" data-aos-delay="500">
+                <div class="card-header" id="faq6">
+                    <h5>
+                        <button class="btn btn-link collapsed d-flex justify-content-between w-100" data-toggle="collapse" data-target="#collapse6">
+                            Quali requisiti deve avere un dispositivo per utilizzare Billy?
+                            <i class="fas fa-chevron-down ml-2 rotate-icon"></i>
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapse6" class="collapse" data-parent="#faqAccordion">
+                    <div class="card-body">
+                        È sempre possibile usare Billy tramite browser.<br><br>
+                        Nel caso in cui si utilizzi da dispositivo mobile ti consigliamo di scaricare l’applicazione, così puoi usare il software in tutte le sue funzionalità!<br><br>
+                        Da computer Microsoft puoi utilizzare Billy in qualsiasi condizione, ti basta un browser web.<br><br>
+                        Nel caso di utilizzo tramite app, se hai un dispositivo Android è necessario che il sistema operativo sia aggiornato almeno alla versione 8.0, se invece hai un dispositivo Apple, iOS deve essere aggiornato alla versione 14.
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" data-aos="fade-up" data-aos-delay="600">
+                <div class="card-header" id="faq7">
+                    <h5>
+                        <button class="btn btn-link collapsed d-flex justify-content-between w-100" data-toggle="collapse" data-target="#collapse7">
+                            Quale differenza c’è tra scontrino e documento commerciale?
+                            <i class="fas fa-chevron-down ml-2 rotate-icon"></i>
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapse7" class="collapse" data-parent="#faqAccordion">
+                    <div class="card-body">
+                        Il documento commerciale è, in sostanza, un documento estremamente simile allo scontrino fiscale, vale come prova d’acquisto e/o a titolo di garanzia ma non ha valore ai fini fiscali.<br><br>
+                        Affinché il documento commerciale valga ai fini di eventuali detrazioni, dovrà essere integrato dal Codice Fiscale o dalla Partita IVA del cliente.<br><br>
+                        Con Billy si possono inserire delle righe di intestazione che contengano il codice fiscale o la Partita IVA.
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" data-aos="fade-up" data-aos-delay="700">
+                <div class="card-header" id="faq8">
+                    <h5>
+                        <button class="btn btn-link collapsed d-flex justify-content-between w-100" data-toggle="collapse" data-target="#collapse8">
+                            Quali sono i requisiti per stampare il documento commerciale?
+                            <i class="fas fa-chevron-down ml-2 rotate-icon"></i>
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapse8" class="collapse" data-parent="#faqAccordion">
+                    <div class="card-body">
+                        Se accedi a Billy da app (Android o iOS) puoi utilizzare una delle stampanti che abbiamo testato.<br><br>
+                        Se lo utilizzi da un PC Windows puoi usare praticamente ogni stampante mentre da computer Mac non possiamo consigliare nulla in particolare.<br><br>
+                        Non puoi stampare i documenti commerciali se utilizzi Billy tramite web su dispositivo mobile.
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" data-aos="fade-up" data-aos-delay="800">
+                <div class="card-header" id="faq9">
+                    <h5>
+                        <button class="btn btn-link collapsed d-flex justify-content-between w-100" data-toggle="collapse" data-target="#collapse9">
+                            Come faccio ad emettere scontrini in mancanza di connessione o in caso di non funzionamento del sito dell’Agenzia?
+                            <i class="fas fa-chevron-down ml-2 rotate-icon"></i>
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapse9" class="collapse" data-parent="#faqAccordion">
+                    <div class="card-body">
+                        In entrambi i casi è necessario compilare il registro di emergenza dei corrispettivi e informare il proprio commercialista.
+                    </div>
+                </div>
+            </div>
+
         </div>
     </section>
+
 
     <!-- Footer -->
     <footer class="text-center py-4 bg-dark text-white mt-5">
@@ -158,6 +298,8 @@
     <script src="~/Scripts/jquery-3.6.0.min.js"></script>
     <script src="~/Scripts/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+
     <script>
         AOS.init({ duration: 800, once: true });
 

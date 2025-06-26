@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Net.Mail;
 using System.Web.Mvc;
+using System.Net.Mail;
 
 namespace solupoint.Controllers
 {
@@ -31,6 +33,31 @@ namespace solupoint.Controllers
         {
             return View();
         }
+
+
+
+        [HttpPost]
+        public ActionResult SendContact(string name, string email, string message)
+        {
+            var mail = new MailMessage();
+            mail.To.Add("info@solupoint.com");
+            mail.From = new MailAddress(email);
+            mail.Subject = "Nuovo messaggio da " + name;
+            mail.Body = message;
+
+            var smtp = new SmtpClient("smtp.aruba.it", 587)
+            {
+                Credentials = new System.Net.NetworkCredential("info@solupoint.com", "Cashpoint123!!"),
+                EnableSsl = true
+            };
+
+             smtp.Send(mail);
+
+            TempData["Message"] = "Messaggio inviato con successo!";
+            return RedirectToAction("Index");
+        }
+
+
 
 
         public ActionResult Prodotti()

@@ -129,8 +129,13 @@
     <div class="container body-content">
         @RenderBody()
         <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - Applicazione ASP.NET</p>
+        <footer class="text-center mt-5 p-4 bg-dark text-white">
+            <div class="container">
+                <p class="mb-1"><strong>Soluzioni Integrate</strong></p>
+                <p class="mb-1">P.IVA 04133241002 – Certificata ISO 9001</p>
+                <p class="mb-1">Via Frascati 233, 00044 Frascati (RM)</p>
+                <p class="mb-0">&copy; @DateTime.Now.Year Soluzioni Integrate - Tutti i diritti riservati</p>
+            </div>
         </footer>
     </div>
 
@@ -166,7 +171,10 @@
             if (!accountDropdown.contains(event.target) && !dropdownMenu.contains(event.target)) {
                 dropdownMenu.style.display = "none";
             }
-        });
+            });
+
+            
+
 
     </script>
 

@@ -1,127 +1,111 @@
 ﻿@{
     ViewBag.Title = "Home Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Styles {
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <style>
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/images/hero-soluzioni.jpg') center center/cover no-repeat;
+            color: white;
+            padding: 150px 20px;
+            text-align: center;
+        }
+
+            .hero h1 {
+                font-size: 3rem;
+                font-weight: bold;
+            }
+
+        .product-icon {
+            font-size: 3rem;
+            color: #0d6efd;
+            margin-bottom: 10px;
+        }
+
+        .product-card {
+            background-color: white;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+            .product-card:hover {
+                transform: translateY(-10px);
+            }
+
+        .products-section {
+            background: #f8f9fa;
+            padding: 60px 20px;
+        }
+
+        .section-title {
+            font-size: 2.2rem;
+            font-weight: bold;
+            margin-bottom: 40px;
+        }
+    </style>
 }
 
 <main>
-    <header class="hero text-center text-white">
-        <h1 class="display-4">Benvenuti in Solupoint</h1>
+    <!-- HERO -->
+    <header class="hero">
+        <h1>Soluzioni per il tuo punto vendita</h1>
+        <p class="lead mt-3">Registratori di cassa, software gestionali, bilance e molto altro.</p>
+        <a href="#prodotti" class="btn btn-light btn-lg mt-4">Scopri di più</a>
     </header>
 
-    <section class="container info-section text-center slide-in">
-        <h2 class="mb-4">Chi Siamo</h2>
+    <!-- CHI SIAMO -->
+    <section class="container text-center my-5" data-aos="fade-up">
+        <h2 class="section-title">Chi Siamo</h2>
         <p class="lead">
-            Solupoint è un'azienda leader nel settore dei gestionali, registratori di cassa, bilance e soluzioni hardware e software per il retail.
+            Solupoint è un’azienda leader nelle soluzioni integrate per il retail. Dal software alla cassa, ti accompagniamo con tecnologie affidabili e pronte all’uso.
         </p>
     </section>
 
-    <section class="container products-section text-center mt-5 slide-in">
-        <h2 class="mb-4">I Nostri Prodotti</h2>
-        <div class="row g-4">
-            <div class="col-md-3">
-                <div class="product-box text-center slide-in">
-                    <h3>Registratori di Cassa</h3>
-                    <p>Soluzioni moderne e intuitive per la gestione del punto vendita.</p>
+    <!-- PRODOTTI -->
+    <section id="prodotti" class="products-section">
+        <div class="container text-center">
+            <h2 class="section-title" data-aos="fade-up">I Nostri Prodotti</h2>
+            <div class="row g-4">
+                <div class="col-md-3" data-aos="zoom-in">
+                    <div class="product-card">
+                        <div class="product-icon"><i class="fas fa-cash-register"></i></div>
+                        <h4>Registratori di Cassa</h4>
+                        <p>Modelli telematici pronti per l'invio automatico dei corrispettivi.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-3">
-                <div class="product-box text-center slide-in">
-                    <h3>Cassa virtuale</h3>
-                    <p>CashPoint, la cassa virtuale per emettere scontrini.</p>
+                <div class="col-md-3" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="product-card">
+                        <div class="product-icon"><i class="fas fa-mobile-alt"></i></div>
+                        <h4>Cassa Virtuale</h4>
+                        <p>Emetti scontrini ovunque ti trovi, con smartphone, tablet o PC.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-3">
-                <div class="product-box text-center slide-in">
-                    <h3>Bilance</h3>
-                    <p>Strumenti di pesatura precisi e affidabili per ogni esigenza.</p>
+                <div class="col-md-3" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="product-card">
+                        <div class="product-icon"><i class="fas fa-balance-scale"></i></div>
+                        <h4>Bilance</h4>
+                        <p>Strumenti di pesatura precisi per negozi alimentari e mercati.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-3">
-                <div class="product-box text-center slide-in">
-                    <h3>Rendiresto</h3>
-                    <p>Soluzioni automatiche per un pagamento rapido e senza errori.</p>
+                <div class="col-md-3" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="product-card">
+                        <div class="product-icon"><i class="fas fa-coins"></i></div>
+                        <h4>Rendiresto</h4>
+                        <p>Gestione automatica del contante con dispositivi compatibili.</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-
-    
-
 </main>
 
-<style>
-    html {
-        scroll-behavior: smooth;
-    }
-
-    .hero {
-        background: url('https://source.unsplash.com/1600x900/?technology') no-repeat center center/cover;
-        height: 80vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
-        animation: fadeIn 2s ease-in-out;
-        background-attachment: fixed;
-    }
-
-    @@keyframes fadeIn {
-        from {
-            opacity: 0;
-        }
-
-        to {
-            opacity: 1;
-        }
-    }
-
-    .info-section {
-        padding: 50px 20px;
-    }
-
-    .info-box, .product-box {
-        background: white;
-        padding: 30px;
-        border-radius: 15px;
-        box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
-        transition: transform 0.3s;
-    }
-
-        .info-box:hover, .product-box:hover {
-            transform: translateY(-10px);
-        }
-
-    .products-section {
-        padding: 50px 20px;
-        background: #f8f9fa;
-        border-radius: 15px;
-    }
-
-    .slide-in {
-        opacity: 0;
-        transform: translateY(50px);
-        transition: all 0.8s ease-out;
-    }
-
-        .slide-in.visible {
-            opacity: 1;
-            transform: translateY(0);
-        }
-</style>
-
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
-        const elements = document.querySelectorAll('.slide-in');
-
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('visible');
-                }
-            });
-        }, {
-            threshold: 0.1
-        });
-
-        elements.forEach(el => observer.observe(el));
-    });
-</script>
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init({ duration: 800, once: true });
+    </script>
+}

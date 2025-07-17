@@ -1,0 +1,88 @@
+﻿@{
+    ViewBag.Title = "Costi";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+<main class="container py-5">
+    <h1 class="text-center mb-5" data-aos="fade-down">I costi di Billy</h1>
+
+    <p class="lead text-center" data-aos="fade-up">
+        Semplice. Flessibile. Conveniente. Scegli la soluzione che si adatta meglio alla tua attività.
+    </p>
+
+    <div class="row text-center mt-5">
+
+        <!-- Abbonamento annuale -->
+        <div class="col-md-4 mb-4" data-aos="zoom-in">
+            <div class="card shadow rounded-4 h-100">
+                <div class="card-body">
+                    <h4 class="card-title">💼 Abbonamento Annuale</h4>
+                    <p class="card-text mt-3"><strong>Standard:</strong> 70€<br /><strong>Forfettari:</strong> 60€</p>
+                    <p class="text-muted">Perfetto per l'uso continuativo durante tutto l’anno.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mensile -->
+        <div class="col-md-4 mb-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="card shadow rounded-4 h-100">
+                <div class="card-body">
+                    <h4 class="card-title">📆 Abbonamento Mensile</h4>
+                    <p class="card-text mt-3"><strong>Standard:</strong> 7€<br /><strong>Forfettari:</strong> 6€</p>
+                    <p class="text-muted">Ideale per attività stagionali o saltuarie.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pacchetto 50 giorni -->
+        <div class="col-md-4 mb-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="card shadow rounded-4 h-100">
+                <div class="card-body">
+                    <h4 class="card-title">⏱️ 50 Giorni</h4>
+                    <p class="card-text mt-3"><strong>Prezzo unico:</strong> 20€</p>
+                    <p class="text-muted">Da usare entro 12 mesi. Totale flessibilità.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="mt-5" data-aos="fade-up">
+        <h3 class="mb-3">📑 Fatturazione Elettronica</h3>
+        <ul class="list-group">
+            <li class="list-group-item">✔️ Fino a 20 fatture/anno: <strong>Gratis</strong></li>
+            <li class="list-group-item">➕ Oltre 20 fatture: <strong>20€/anno</strong></li>
+        </ul>
+        <p class="mt-3 text-muted">I prezzi sono IVA esclusa.</p>
+    </section>
+
+    <section class="mt-5" data-aos="fade-up">
+        <h3>🚀 Provalo gratuitamente</h3>
+        <p>
+            Attiva oggi i tuoi <strong>7 giorni di prova gratuita</strong>, senza carta di credito e senza rinnovo automatico.
+        </p>
+        <p>
+            Al termine potrai decidere liberamente se continuare.
+        </p>
+        <a href="/Home/Contatti" class="btn btn-primary btn-lg mt-3">Richiedi la prova gratuita</a>
+    </section>
+
+    <section class="mt-5 text-center text-muted small" data-aos="fade-in">
+        <p>
+            <strong>Billy</strong> è un servizio di SENDER S.r.l. – Via Erbosa 15/ab, 52100 Arezzo (AR)<br />
+            P.IVA 02399210513 – PEC: sendersrl@pec.it
+        </p>
+        <p>
+            <a href="/Privacy">Privacy Policy</a> | <a href="/Cookie">Cookie Policy</a> | <a href="/Termini">Termini e Condizioni</a>
+        </p>
+    </section>
+</main>
+
+<script>
+    AOS.init({
+        duration: 800,
+        once: true
+    });
+</script>

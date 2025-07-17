@@ -1,0 +1,51 @@
+﻿@{
+    ViewBag.Title = "Chi Siamo";
+}
+<main aria-labelledby="title" style="font-family: Arial, sans-serif; max-width: 900px; margin: 0 auto; padding: 2rem;">
+    <h2 id="title" style="font-size: 2.5rem; color: #2c3e50; text-align: center; margin-bottom: 1rem;">@ViewBag.Title</h2>
+    @*<h3 style="font-size: 1.5rem; color: #16a085; text-align: center; margin-bottom: 2rem;">@ViewBag.Message</h3>*@
+
+    <section style="background-color: #ecf0f1; padding: 2rem; border-radius: 8px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
+        <h4 style="font-size: 1.8rem; color: #2980b9; margin-bottom: 1rem;">Chi Siamo</h4>
+        <p style="font-size: 1rem; color: #7f8c8d; line-height: 1.6;">
+            Siamo un'azienda specializzata nella vendita di registratori di cassa, software gestionali, bilance elettroniche e rendiresto.
+            Offriamo soluzioni pratiche e affidabili per attività commerciali di ogni tipo.
+        </p>
+
+        <h4 style="font-size: 1.8rem; color: #2980b9; margin-top: 2rem; margin-bottom: 1rem;">Cosa Facciamo</h4>
+        <p style="font-size: 1rem; color: #7f8c8d; line-height: 1.6;">
+            Aiutiamo i nostri clienti a gestire al meglio il loro punto vendita grazie alla nostra esperienza e a un servizio di assistenza sempre disponibile.
+            Il nostro obiettivo è semplificare il lavoro quotidiano con soluzioni efficienti e un supporto puntuale.
+        </p>
+
+        <h4 style="font-size: 1.8rem; color: #2980b9; margin-top: 2rem; margin-bottom: 1rem;">La Nostra Storia</h4>
+        <p style="font-size: 1rem; color: #7f8c8d; line-height: 1.6;">
+            Operiamo nel settore da oltre 30 anni. In tutto questo tempo, abbiamo costruito relazioni solide con i nostri clienti, basate sulla fiducia e sull'affidabilità.
+            Siamo cresciuti grazie alla passione per il nostro lavoro e alla volontà di offrire sempre il meglio.
+        </p>
+    </section>
+
+
+    <section style="margin-top: 3rem; text-align: center;">
+        <h4 style="font-size: 1.5rem; color: #2980b9;">Privacy e Termini</h4>
+        <p style="font-size: 1rem; color: #7f8c8d; margin-bottom: 1rem;">Per maggiori informazioni sulla nostra politica sulla privacy, puoi leggere i dettagli qui sotto:</p>
+        <p>
+            @Html.ActionLink("Visualizza la Privacy Policy", "PrivacyPolicy", "PrivacyPolicy", null, new { @class = "btn btn-primary", style = "padding: 0.5rem 1rem; font-size: 1rem; background-color: #3498db; color: white; text-decoration: none; border-radius: 4px; display: inline-block;" })
+        </p>
+    </section>
+</main>
+
+<style>
+    section {
+        margin-bottom: 2rem;
+    }
+
+    h4 {
+        font-weight: bold;
+    }
+
+    .btn-primary:hover {
+        background-color: #2980b9;
+        color: white;
+    }
+</style>
